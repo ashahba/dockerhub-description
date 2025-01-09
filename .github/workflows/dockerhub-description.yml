@@ -19,4 +19,5 @@ jobs:
         password: ${{ secrets.DOCKERHUB_PASSWORD }}
         repository: ashahba/audioqna
         short-description: ${{ github.event.repository.description }}
+        readme-filepath: .github/opea-project/READMEs/audioqna.md
         enable-url-completion: true
